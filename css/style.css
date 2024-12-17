@@ -1,0 +1,259 @@
+:root {
+    --primary-color: #337ab7;
+    --secundary-color: #000;
+    --terciary-color: #fff;
+}
+
+a:hover{
+    text-decoration: none;
+    color: var(--terciary-color);
+}
+
+body{
+    font-family: 'Rockwell';
+}
+
+.login-page {
+    background-image: linear-gradient(to bottom, rgb(87, 218, 87), #000);
+    min-height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.login-box {
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    display: flex;
+    overflow: hidden;
+    width: 568px;
+    max-width: 100%;
+    min-height: 400px;
+    background-color: #eeeeee;
+}
+
+.login-box-title {
+    height: 100px;
+    line-height: 150px;
+    /* background-color: red; */
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.login-bt {
+    background-image: linear-gradient(to right, rgb(87, 218, 87), #000);
+    height: 50px;
+    margin-left: 2.5rem !important;
+    margin-right: 2.5rem !important;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.menu-left-bar {
+    background-image: linear-gradient(to right, var(--primary-color), #000);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu-banner {
+    background-color: #000;
+}
+
+.box-dashboard {
+    /* background-color: var(--primary-color); */
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.icon-menu {
+    color: var(--terciary-color);
+}
+
+.icon-menu:hover {
+    color: var(--secundary-color);
+}   
+
+.header-line-banner {
+    height: 6rem;
+}
+
+.box-home-news {
+    height: 4rem;
+    background-color: var(--terciary-color);
+    border-radius: 15px;
+
+}
+
+.player-card {
+    height: 325px;
+    width: 225px !important;
+    /* margin-top: 4rem; */
+    border-radius: 50px;
+    background-color: var(--secundary-color);
+    background-image: linear-gradient(to bottom, #fff 40%,  var(--primary-color));
+    border: #000 solid 2px;
+    /* opacity: 0.9; */
+}
+
+.box-home-best-player {
+    text-align: -webkit-center;
+}
+
+.box-home-last-game {
+    text-align: -webkit-center;
+}
+
+.player-card-stats, .player-card-name {
+    color: #000;
+}
+
+.bt-see-players {
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    border: #000 solid 1px;
+    cursor: pointer;
+    max-height: 80px;
+}
+
+.stadium-banner {
+    background-image: url('https://conteudo.imguol.com.br/c/esporte/04/2020/12/03/arena-do-gremio-pronta-para-receber-partida-contra-o-guarani-par-pela-copa-libertadores-1607039338664_v2_4x3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page-title {
+    display: inline-flex;
+}
+
+.player-list-one {
+    height: 80px;
+    /* background-color: rgb(201, 193, 193); */
+    /* background-color: rgb(80, 79, 79); */
+    background-color: var(--primary-color);
+    /* color: #fff; */
+    /* border-radius: 10px; */
+    border-top: 1px solid #000;
+}
+
+.player-list-two {
+    height: 80px;
+    /* background-color: rgb(201, 193, 193); */
+    background-color: var(--terciary-color);
+    /* border-radius: 10px; */
+    border-top: 1px solid #000;
+}
+
+.player-list-picture {
+    background-color: #fff;
+}
+
+.elenco-player-box {
+    /* background-color: var(--secundary-color); */
+    border: 3px solid var(--primary-color);
+}
+
+.player-card-elenco {
+    height: 325px;
+    width: 225px !important;
+    /* margin-top: 4rem; */
+    border-radius: 50px;
+    background-color: var(--secundary-color);
+    background-image: linear-gradient(to bottom, #fff 40%,  var(--primary-color));
+    border: 3px solid var(--primary-color);
+    /* opacity: 0.9; */
+}
+
+.player-list-name {
+    /* background-color: red; */
+    line-height: 80px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.player-list-data {
+    line-height: 80px;
+    font-size: 17px;
+}
+
+.player-widgets {
+    /* height: 110px;  */
+    border-radius: 15px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border: 3px solid var(--primary-color);
+
+}
+
+.player-widgets-two {
+    /* height: 80px;  */
+    border-radius: 15px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border: 3px solid var(--primary-color);
+
+}
+
+.box-heat-map {
+    height: auto;
+    /* background-color: red; */
+}
+
+.calendar-bt-matches {
+    background-color: var(--primary-color);
+    line-height: 50px;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.calendar-bt-matches-selected {
+    background-color: #000;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.calendar-box-match {
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    height: 150px;
+    min-width: fit-content;
+    max-width: fit-content;
+}
+
+.calendar-match-team {
+    height: 80px;
+}
+
+.calendar-day-match {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.calendar-match-description {
+    /* font-size: 16px; */
+    font-weight: 600;
+    color: #fff;
+}
+
+.calendar-team-details {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 70px;
+    height: 70px;
+}
+
+#calendar-team-name {
+    font-size: 22px;
+}
+
+.calendar-how-play {
+    font-size: 17px;
+    color: #000;
+    font-weight: 600;
+}
